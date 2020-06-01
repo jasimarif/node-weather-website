@@ -90,7 +90,7 @@ app.get("/weather", (req, res) => {
 // res contains bunch of functions telling what we can send back to requestor
 // app.com (our domain)
 // app.com/help
-// app.com/about
+
 
 app.get("/product", (req, res) => {
     if (!req.query.search) {
